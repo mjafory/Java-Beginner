@@ -109,9 +109,9 @@ strings, in our example.
 	    
 	    //When will an int/string become a char? The char isn't enclosed it in quotes. Use next to get a string version. Use .equals() to check strings. 
 	    
-	    if(name.equals("Magfur") || name.equals("Jafory")) {
+	    if(name.equals("John") || name.equals("White")) {
 			System.out.print(name + ", your in group A");
-		}else if(name.equals("Mashkur") || name.equals("Hasan")) {
+		}else if(name.equals("David") || name.equals("White")) {
 			System.out.print(name + ", you are in group B");
 		}else {
 			System.out.print(name + ", you are not in group yet");
@@ -155,10 +155,22 @@ strings, in our example.
 			break;
 		}
 	    
+	    System.out.print("\n\n----------------------------------\n\n");
 	    
-	    
-	    
-	    
+	    //for loop
+	    /*
+	     
+	    Statement 1 is executed (one time) before the execution of the code block.
+
+		Statement 2 defines the condition for executing the code block.
+
+		Statement 3 is executed (every time) after the code block has been executed..
+		for(initialization; condition;increment/decrement)
+		*/
+	    for (int i = 0; i < 3; i++) {
+			System.out.println("hello world");
+		}
+
 	    }
 	} 
 
